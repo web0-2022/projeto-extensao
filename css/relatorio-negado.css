@@ -1,0 +1,137 @@
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 47px;
+    margin-top: 40px;
+}
+
+.botao p.texto {
+    font-size: 17px;
+}
+
+.title {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title.cont {
+    margin-bottom: 10px;
+}
+
+.justificativa {
+    display: grid;
+    grid-template-columns: 45vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.justificativa.cont {
+    grid-template-columns: 60vw;
+}
+
+.justificativa.cont div.send-area {
+    grid-template-columns: 1fr 2fr;
+}
+
+.justificativa.cont div.send-area p {
+    margin-bottom: 10px;
+}
+
+.conf {
+    display: grid;
+    grid-template-columns: 45vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.justificativa p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+
+textarea, a.botao-verde {
+    margin-bottom: 8vh;
+}
+
+.botao-vector {
+    display: grid;
+    grid-template-columns: 30vw 30vw;
+    justify-content: center;
+    margin: 43px 0;
+    text-align: center;
+    align-items: center;
+}
+
+.botao.sem-vetor {
+    margin-top: 40px;
+    margin-bottom: 10vw;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+a.botao-azul {
+    margin: 10px 5vw;
+}
+
+.conf p.texto {
+    font-size: 20px;
+}
+
+.send-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.send-area .dir {
+    text-align: left;
+}
+
+.send-area input {
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+.send-area textarea {
+    width: 90%;
+}
+
+.duracao-ok {
+    color: var(--verde);
+}
+.duracao-pass {
+    color: var(--vermelho);
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: 15vw 15vw;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 11vh;
+}
+
+.botoes a.botao-verde, .botoes a.botao-vermelho{
+    margin: 0;
+    align-items: center;
+}
+
+.select-mes {
+   
+    text-align: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.select-mes select {
+    width: 130px;
+}
