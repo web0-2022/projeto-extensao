@@ -1,0 +1,91 @@
+strong {
+    font-weight: 600;
+}
+
+div.tudo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+div.sobre-vector {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.sobre, .grupo, .links {
+    padding: 50px;
+}
+
+.sobre {
+    background-color: var(--verde);
+    color: var(--branco);
+    text-align: justify;
+}
+
+.sobre p {
+    margin-top: 30px;
+}
+
+.grupo p {
+    margin-top: 25px;
+}
+
+.sobre-vector {
+    margin-bottom: 20px;
+}
+
+p, li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.sobre ul {
+    margin-left: 60px;
+}
+
+.grupo {
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+.links p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+a.titulo {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.titulo h1 {
+    margin-bottom: 7px;
+}
+
+.links h1 {
+    font-weight: bolder;
+}
+
+.links {
+    background-color: var(--amarelo);
+    height: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+.links-texto {
+    text-align: center;
+}
+
+.links a {
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.links a:hover {
+    color: var(--cinza-escuro);
+}

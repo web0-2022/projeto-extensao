@@ -1,8 +1,9 @@
 <html>
     <head>
-        <title>Perfil | Projeto Web 0</title>
+        <title>Buscar Projetos | Projeto Web 0</title>
         <link href="css/style.css" rel="stylesheet"/>
         <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/buscar-projeto.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,7 +30,7 @@
                         <li ><a class="navitem" href="#">Ver historico</a></li>
                         <li ><a class="navitem" href="#">Incluir certificado de participação</a></li>
                         <li ><a class="navitem" href="#">Renovar contrato</a></li>
-                        <li><a class="navitem" href="buscar-projetos-semprojeto.html">buscar projetos</a></li>
+                        <li><a class="navitem" href="#">buscar projetos</a></li>
                     </ul>
                     </div>
                     <div class="perfil">
@@ -46,40 +47,46 @@
             </div>
         </header>
 
-            <section class="pagfixa">
-                <div class="div-esquerda">
-                    <div class="info">
-                        <div class="info-peq">
-                            <p class="texto">Fulano Ciclano da Silva | Curso Tal | 2022.1</p>
-                            <p class="texto" id="data">Abril - 2022</p>
+                <div class="div-center"> 
+                    <div class="cima">
+                        <div class="h1-tit">
+                            <h1 id="buscar-projeto">BUSCAR PROJETOS</h1>
                         </div>
-
-                        <div class="info-grande">
-                            <p class="texto" id="projeto">SEM PROJETO</p>
+                        <div class="p-search">
+                            <div>
+                                <p id="mostrando">Mostrando projetos coordenados por professores vinculados ao CURSO TAL</p>
+                            </div>
+                            <div id="busca">
+                                <input type="search" class="buscar" placeholder="Buscar..."><img src="imagens/lupa.png" alt="Pesquisar">
+                            </div>
                         </div>
-
-                        <div class="procurar-projetos">
-                            <a class="botao-verde" href="#">PROCURAR PROJETOS</a>
-                        </div>
+                            
+                    <hr>
+                    </div>
                         
+                    <div class="projeto">
+                        <p class="prof">Prof. BELTRANO</p>
+                        <a href="visualizar-projeto-semprojeto.html" class="titulo-proj">PROJETO TAL QUE FAZ TAL COISAS</a>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque voluptatum expedita id natus aliquid. Voluptates ratione quod aspernatur repellat, harum magnam ex recusandae deleniti rem distinctio commodi expedita cum?</p>
+                        <p class="vagas">VAGAS: 5</p>
                     </div>
-                    <div class="div-horas-totais">
-                        <h2 class="titulo-semibold">HORAS TOTAIS</h2>
-                        <div class="div-porcent-horas">
-
-                        </div>
-                        <a class="botao-azul historico" href="#">VER HISTÓRICO</a>
+                    <hr>
+                    <div class="projeto">
+                        <p class="prof">Prof. BELTRANA</p>
+                        <a href="visualizar-projeto-semprojeto.html" class="titulo-proj">PROJETO TAL QUE FAZ OUTRA</a>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque voluptatum expedita id natus aliquid. Voluptates ratione quod aspernatur repellat, harum magnam ex recusandae deleniti rem distinctio commodi expedita cum?</p>
+                        <p class="vagas">VAGAS: 5</p>
+                    </div>
+                    <hr>
+                    <div class="projeto">
+                        <p class="prof">Prof. CICLANO</p>
+                        <a href="visualizar-projeto-semprojeto.html" class="titulo-proj">PROJETO LEGAL QUE FAZ ISSO</a>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque voluptatum expedita id natus aliquid. Voluptates ratione quod aspernatur repellat, harum magnam ex recusandae deleniti rem distinctio commodi expedita cum?</p>
+                        <p class="vagas">VAGAS: 5</p>
                     </div>
                 </div>
-
-                <div class="div-direita">
-                    <div class="div-tarefas">
-                        <h1 id="tarefas">TAREFAS DA SEMANA</h1>
-                        <br>
-                        <p>Quando você estiver vinculado a um projeto, suas tarefas semanais aparecerão aqui.</p>
-                    </div>
-                </div>
-            </section>
+                    
+                    
 
             <section class="footer">
                 <footer>
@@ -87,6 +94,5 @@
                     <p id="credits">Sarah, Bruna, Matheus e Paulo Gabriel</p>
                 </footer>
             </section>
-            
     </body>
 </html>

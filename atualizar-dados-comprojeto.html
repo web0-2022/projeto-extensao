@@ -4,30 +4,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="css/cadastro-aluno-prof.css" rel="stylesheet"/>
+    <link href="css/atualizar-dados.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/common.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
-    <title>Cadastro | Projeto Web 0</title>
+    <title>Atualizar dados | Projeto Web 0</title>
 </head>
 <body>
     <header>
         <div class="center">
-            <div class="logo"> <img src="imagens/rural_logo.png" height="85"> </div>
-            <div class="menu">
-                <a href="index.html">HOME</a>
-                <a href="cadastro.html" class="selecionado">CADASTRO</a>
-                <a href="login.html">LOGIN</a>
-                <a href="sobre.html">SOBRE</a>
+                <div class="logo"> <img src="imagens/rural_logo.png" height="85"> </div>
+                <div class="menu">
+                    <div class="perfil">
+                        <a href="#" class="selecionado">PERFIL</a>
+                        <ul>
+                            <li><a class="navitem" href="#">Editar perfil</a></li>
+                            <li><a class="navitem" href="#">Atualizar dados</a></li>
+                        </ul>
+                    </div>    
+                    <div class="perfil">
+                    <a href="#" class="selecionado">SEU PROJETO</a>
+                    <ul>
+                        <li ><a class="navitem" href="enviar-relatorio.html">Enviar relatório</a></li>
+                        <li ><a class="navitem" href="encerrar-vinculo.html">Solicitar encerramento de vínculo</a></li>
+                        <li ><a class="navitem" href="historico-de-horas.html">Ver historico</a></li>
+                        <li ><a class="navitem" href="incluir-cert.html">Incluir certificado de participação</a></li>
+                        <li ><a class="navitem" href="contrato.html">Renovar contrato</a></li>
+                        <li><a class="navitem" href="buscar-projetos-comprojeto.html">buscar projetos</a></li>
+                    </ul>
+                    </div>
+                    <div class="perfil">
+                    <a href="#" class="selecionado">
+                        <svg width="20" height="20" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.775 21.0938H4.22501C3.57501 21.0938 3.00626 20.7562 2.68126 20.1656C2.35626 19.575 2.43751 18.9 2.76251 18.3094L3.65626 16.875C5.11876 14.5969 5.85001 11.9813 5.85001 9.28125C5.85001 6.15937 7.80001 3.29063 10.6438 2.27813C11.1313 1.35 12.025 0.84375 13 0.84375C13.975 0.84375 14.8688 1.35 15.3563 2.27813C18.2 3.29063 20.15 6.15937 20.15 9.28125C20.15 11.9813 20.8813 14.5969 22.3438 16.875L23.2375 18.3094C23.5625 18.9 23.6438 19.575 23.3188 20.1656C23.075 20.7562 22.425 21.0938 21.775 21.0938Z" fill="#1F1F1F"/>
+                        <path d="M9.0188 22.7812C9.42505 24.7219 11.05 26.1562 13 26.1562C14.95 26.1562 16.575 24.7219 16.9813 22.7812H9.0188Z" fill="#1F1F1F"/>
+                        </svg>
+                    </a>
+                    <ul>
+                        <li ><a class="navitem" href="#">recurso:atualização</a></li>
+
+                    </ul>
+                    </div>   
+                </div>
             </div>
-        </div>
     </header>
 
     <div class="title">
-        <h1>CADASTRE-SE COMO ALUNO</h1>
+        <h1>Altere seus dados de usuario </h1>
     </div>
 
     <section class="form">
@@ -53,7 +79,7 @@
                     <div class="coluna-1">
                         <div class="linha-3">
                             <label for="email">E-mail</label>
-                            <input type="email" name="email" id="email" maxlength="11">    
+                            <input type="email" name="email" id="email" maxlength="19">    
                         </div>
                         
                         <div class="linha-4">
@@ -76,24 +102,14 @@
                         </div>                 
                     </div>
 
-                    <div class="coluna-2">
-                        <div class="linha-3">
-                            <label for="senha">Crie uma Senha</label>
-                            <input type="password" name="senha" id="senha" maxlenght="12">
-                        </div>
-
-                        <div class="linha-4">
-                            <label for="conf-senha">Confirme a Senha</label>
-                            <input type="password" name="conf-senha" id="conf-senha" maxlenght="12">
-                        </div>
-                    </div>    
+                        
                 </div>
 
                 
             </form>
         </div>
 
-        <a class="botao-verde botao" href="aluno-perfil-semprojeto.html">CADASTRAR</a>
+        <a class="botao-verde botao" href="aluno-perfil-comprojeto.html">SALVAR ALTERAÇÕES</a>
         
     </section>
 
