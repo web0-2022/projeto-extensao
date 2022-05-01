@@ -1,0 +1,117 @@
+.botao {
+    margin: 0 3vw;
+    text-align: center;
+}
+
+.div-center{
+    margin: 50px;
+    
+}
+
+.esq{
+    margin-top: 60px;
+    width: 782px;
+    height: 600px;
+    
+    
+}
+
+.dir{
+    margin-top: 60px;
+    
+}
+
+.all{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titulo{
+    
+    width: 100%;
+}
+
+.titulo h1{
+    margin-left: 26%;
+    font-size: 40pt;
+}
+
+.esq h1{
+    margin-left: 0%;
+}
+
+.sobre{
+    margin-left: 40;
+}
+
+.sobre-resto{
+    margin-top: 4%;
+    margin-left: 40;
+    width: 782px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#lista{
+    margin-left: 20;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    
+}
+
+#lorem {
+    text-align: justify;
+    width: 700;
+    
+}
+
+.prof img{
+    width: 70px;
+    height: 70px;
+    margin-left: 3%;
+}
+
+.dir h1{
+    margin-left: 2%;
+}
+
+.profpic{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.profpic p{
+    margin-left: -77%;
+}
+
+.aluno img{
+    width: 70px;
+    height: 70px;
+    margin-left: 3%;
+}
+
+.aluno{
+    margin-top: 5%;
+}
+
+.vagas{
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 40%;
+    font-weight: bold;
+}
+
+.titulos-dir{
+    font-size: 20pt;
+}
+
+.institutos{
+    max-width: 200px;
+}
+

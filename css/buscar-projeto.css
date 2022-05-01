@@ -1,0 +1,71 @@
+.div-center{
+    margin: 50px;
+    
+}
+
+.projeto { 
+    width: 100%;
+    height: 165px;
+    margin-top: 30;
+}
+
+.cima{
+    margin: 0px;
+    
+}
+
+#buscar-projeto{
+    font-size: 50;
+    margin-left: 0%;
+}
+
+#mostrando {
+    font-size: 20;
+    margin-left: 0%;
+}
+
+.h1-tit{
+    width: 440;
+    height: 65;
+    
+}
+
+.p-search {
+    margin-top: 30;
+    margin: 0%;
+    height: 39;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.vagas{
+    text-align: right;
+    margin-right: 15;
+    font-weight: bolder;
+}
+
+.prof{
+    font-weight: bolder;   
+}
+
+.desc{
+    font-size: 20;
+}
+
+.titulo-proj{
+    font-size: 30;
+}
+
+#busca img{
+    margin-left: 5;
+    width: 12px;
+    height: 12px;
+}
+
+#busca {
+    margin-left: 580px;
+}
+
+.projeto a{
+    color: var(--azul)
+}

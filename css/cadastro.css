@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto auto 1fr 0.4fr;
+}
+
+footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.opcoes-perfil {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.opcoes-perfil .botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+}
+
+.botoes a {
+    font-size: 25px;
+}
+
+.botoes a.botao-verde {
+    margin-right: 10px;
+}
+
+.botoes a.botao-azul {
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 47px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.coord {
+    display: grid;
+    justify-items: end;
+    align-content: center;
+    margin: 60px 40px 20px 0 ;
+}
+
+.coord p {
+    margin-left: 60vw;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.coord a.botao-amarelo {
+    margin: 0;
+}

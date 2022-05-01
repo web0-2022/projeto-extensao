@@ -1,0 +1,135 @@
+.div-esquerda {
+    margin: 10px;
+    padding: 0 30px;
+    width: 100%;
+    height: 100%;
+}
+
+section.pagfixa{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.div-direita{
+    /* position: absolute; */
+    bottom: 100px;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--azul);
+}
+
+.pagfixa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    /* align-items: center; */
+}
+
+/* .div-tarefas{
+    position: absolute;
+    bottom: 200px;
+    top: 40px;
+    right: 0;
+    left: 55px;
+    width: 600px;
+    height: 200px;
+    background-color: var(--azul-claro);
+    opacity: 0.6 ;
+} */
+
+h1{
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+.div-tarefas p{
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.div-tarefas p {
+    text-align: center;
+    margin: 0 90px;
+    font-weight: 200;
+}
+
+.div-horas-totais{
+    /* bottom: 100px;
+    top: 127px;
+    right: 0;
+    left: 150px; */
+    height: 331px;
+    background-color: var(--amarelo-claro);
+    padding: 25px;
+    margin: 0 30px;
+
+}
+
+.div-horas-totais h2{
+    color: var(--preto);
+    text-decoration: none;
+    font-weight: bold;
+    /* margin-left: 60px; */
+    text-align: center;
+}
+
+/* .botao-azul{
+    margin-top: 100px;
+    background-color: var(--azul);
+    border: none;
+    border-radius: 8px;
+    color: var(--preto);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    left: 50%; right: 50%;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    
+} */
+
+#data {
+    text-align: right;
+    justify-items: right;
+    margin-right: 0;
+}
+
+#projeto {
+    font-size: 25;
+    font-weight: bold;
+}
+
+.info {
+    justify-items: left;
+    margin-bottom: 20px;
+}
+
+.info-peq {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.info-grande {
+    margin-bottom: 50px;
+}
+
+h1#tarefas {
+    text-align: left;
+    margin: 0;
+}
+
+.div-tarefas {
+    margin: 15px;
+    padding: 30px;
+    background-color: var(--azul-claro);
+}
+.menu{
+    float: left;
+}

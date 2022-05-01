@@ -1,0 +1,75 @@
+h1 {
+    font-size: 47px;
+    margin-top: 40px;
+}
+
+.historico{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: relative;
+}
+.tabela{
+	display: flex;
+	position: absolute;
+	padding-top: 7%;
+	width: 100%;
+}
+.tabela ul li{
+	border: 1px solid var(--preto);
+	align-content: center;
+	height: 70px;
+	font-size: 20px;
+}
+.tabela ul{
+	list-style: none;
+	border: 0px;	
+	
+}
+.tabano {
+	width: 15%;
+	text-align: center;
+}
+.tabmes {
+	width: 15%;
+}
+.tabrelatorio{
+	width: 40%;
+}
+.tabhoras{
+	width: 10%;
+
+
+}
+.tabretorno{
+	width: 20%;
+}
+.tiratop{
+	border-top:none;
+	color: var(--azul);
+	font-weight: 700;
+}
+#esquerda{
+	padding-top: 39%;
+	float: left;
+	padding-left: 10%;
+	font-size: 30px;
+}
+#direita{
+	padding-top: 39%;
+	float: right;
+	padding-right: 10%;
+	font-size: 30px;
+}
+.pendente, .rejeitado{
+	color: var(--vermelho);
+	font-size: 20px;
+}
+.enviado{
+	color: var(--amarelo) ;
+	font-size: 20px;
+}
+.validado{
+	color: var(--verde);
+	font-size: 20px;
+}

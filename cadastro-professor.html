@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/cadastro-aluno-prof.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/cadastro-prof.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>Cadastro | Projeto Web 0</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo"> <img src="imagens/rural_logo.png" height="85"> </div>
+            <div class="menu">
+                <a href="index.html">HOME</a>
+                <a href="cadastro.html" class="selecionado">CADASTRO</a>
+                <a href="#">LOGIN</a>
+                <a href="#">SOBRE</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="title">
+        <h1>CADASTRE-SE COMO PROFESSOR</h1>
+    </div>
+
+    <section class="form">
+        <div class="form-area">
+            <form>
+                <div class="linha-1">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                
+                <div class="linha-2">
+                    <label for="cpf">CPF</label>
+                    <input class="primeiro" type="text" name="cpf" id="cpf" maxlength="11">
+
+                    <label class="torto" for="rg">RG</label>
+                    <input type="text" name="rg" id="rg" maxlength="10">
+
+                    <label class="torto" for="matricula">Matrícula</label>
+                    <input class="ultimo" type="text" name="matricula" id="matricula" maxlength="11">
+                </div>
+
+                <div class="colunas">
+                    <div class="coluna-1">
+                        <div class="linha-3">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" maxlength="11">    
+                        </div>
+                        
+                        <div class="linha-4">
+                            <label for="campus">Campus</label>
+
+                            <label for="instituto">Instituto</label>
+
+                            <select name="campus" id="campus">
+                                <option value="seropedica">SEROPÉDICA</option>
+                                <option value="nova-iguacu">NOVA IGUAÇU</option>
+                                <option value="tres-rios">TRÊS RIOS</option>
+                            </select>
+
+                            <select name="instituto" id="instituto">
+                                <option value="ice">ICE - INSTITUTO DE CIÊNCIAS EXATAS</option>
+                                <option value="ichs">ICHS - INSTITUTO DE CIÊNCIAS HUMANAS E SOCIAIS</option>
+                                <option value="ie">IE - INSTITUTO DE EDUCAÇÃO</option>
+                            </select>   
+                        </div>
+                        
+                        <div class="linha-5">
+                            <label for="departamento">Departamento</label>
+                            <select name="departamento" id="departamento">
+                                <option value="decomp">DECOMP - DEPARTAMENTO DE COMPUTAÇÃO</option>
+                                <option value="demat">DEMAT - DEPARTAMENTO DE MATEMÁTICA</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="coluna-2">
+                        <div class="linha-3">
+                            <label for="senha">Crie uma Senha</label>
+                            <input type="password" name="senha" id="senha" maxlenght="12">
+                        </div>
+
+                        <div class="linha-4">
+                            <label for="conf-senha">Confirme a Senha</label>
+                            <input type="password" name="conf-senha" id="conf-senha" maxlenght="12">
+                        </div>
+                    </div>    
+                </div>
+
+                
+            </form>
+        </div>
+
+        <a class="botao-azul botao" href="prof-perfil-semprojeto.html">CADASTRAR</a>
+        
+    </section>
+
+    <section class="footer">
+        <footer>
+            <p id="title">Projeto de Web 0 - UFRRJ</p>
+            <p id="credits">Sarah, Bruna, Matheus e Paulo Gabriel</p>
+        </footer>
+    </section>
+</body>
+</html>
